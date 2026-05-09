@@ -501,7 +501,7 @@ fun DailyDiscoverCard(
     val haptic = LocalHapticFeedback.current
 
     val song = dailyDiscover.recommendation as? SongItem
-    val playsString = stringResource(R.string.plays_lowercase)
+    val playsString = stringResource(R.string.plays).lowercase()
 
     Card(
         modifier =
